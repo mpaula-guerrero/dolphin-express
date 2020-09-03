@@ -1,0 +1,263 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	background-image: url(../imagenes/fondo.jpg);
+    font-family: Roboto, sans-serif;
+    color: #087190;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: Rowdies , cursive;
+}
+
+h1{
+	text-align: center; /*centra el texto */
+	font-size: 3em;
+}
+/*Estilos del login*/
+#flogin{
+background-color: #087190;
+max-width: 300px;
+width: 100%;
+margin: 50px auto;
+padding: 20px;
+text-align: center;
+box-shadow: 3px 3px 3px #000000;
+border-radius: 10px;
+}
+
+#flogin h2{
+color: #ffffff;
+text-shadow: 3px 3px 5px #000000;
+
+}
+
+#flogin img{
+max-width: 100px;
+width: 100px;
+}
+
+#flogin label{
+	color: #000000;
+	font-weight: bold;
+	text-align: left;
+	max-width: 100px;
+	width: 100%;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+#flogin input[type=text], input[type=password]{
+	padding: 5px;
+	border-radius: 5px;}
+
+#flogin input[type=text]:focus, input[type=password]:focus{
+    outline: none;
+    box-shadow: 3px 3px 3px #000000;
+}
+
+.bazul{
+	background: linear-gradient(#052934,#276475);
+	padding: 10px 15px;
+	max-width: 100px;
+	width: 100%;
+	color: #ffffff;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+    margin-top: 15px;
+
+}
+
+.bazul:hover{
+	background: linear-gradient(#276475,#052934);
+}
+
+.bblanco{
+	background: linear-gradient(#ffffff,#B8BBBB);
+	padding: 10px 15px;
+	max-width: 120px;
+	width: 100%;
+	color: #000000;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+    margin-top: 15px;
+
+}
+
+.bblanco:hover{
+	background: linear-gradient(#B8BBBB,#ffffff);
+}
+/*Estilos de página principal*/
+header{
+	width: 100%;
+}
+
+.logo{
+	float: left;
+}
+
+.logo img{
+	max-width: 250px;
+	width: 100%;
+}
+
+.botones{
+	float: right;
+	margin: 20px;
+}
+nav{
+	width: 100%;
+	clear: both;
+	background-color: #4d7a87;
+}
+
+nav ul{
+	list-style: none;
+}
+nav .menu >li{
+	display: inline-block;
+}
+nav .menu >li >a{
+	padding: 15px 20px;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+nav .menu >li >a:hover{
+	background-color: #7797a1;
+	color: #ffffff;
+	transition: background-color 1s;
+}
+
+
+.submenu{
+	position: absolute;
+    background: #ffffff; 
+    text-align: left;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.submenu >li{
+	width: 100%
+}
+
+.submenu li a{
+	color: #000000;
+	display: block;
+	padding: 10px 20px; 
+	text-decoration: none;
+}
+
+.submenu li a:hover{
+	background: #4d7a87;
+	color: #000000;
+	transition: background-color 2s;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 2s;
+}
+.red > section{
+	display: inline-block;
+}
+/*Usuarios/*
+/*Estilos Vista Principal*/
+
+main{
+	max-width: 100%;
+}
+
+.intro{
+	max-width: 100%;
+	margin: 20px;
+}
+
+.tintro{
+	float: left;
+	color: #29437A;
+}
+
+.imgintro{
+	float: left;
+
+}
+
+.bnintro{
+	float: right;
+}
+
+.busqueda{
+	clear: both;
+	width: 100%;
+	margin: 30px;
+}
+
+.busqueda input[type=text]{
+	width: 70%;
+	padding: 11px;
+	border: 2px solid #29437A;
+	border-radius: 10px; 
+}
+
+table{
+	width: auto;
+	margin: 30px auto;
+	background-color: #EAEAEA;
+	border: 3px solid #FFFFFF;
+	border-collapse: collapse;
+
+
+}
+
+table th{
+	background-color: #29437A ;
+	color: #FFFFFF;
+	border: 3px solid #FFFFFF;
+	padding: 5px 15px;
+}
+table td{
+	border: 3px solid #FFFFFF;
+	text-align: center;
+	padding: 5px;
+}
+
+/* Estilos De La Vista Secundaria*/
+#fsecundario{
+	background-color: rgba(74,110,186,0.3);
+	max-width: 800px;
+	width: 100%;
+	margin: 30px Auto;
+	padding: 50px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #000000;
+}
+
+#fsecundario label{
+	max-width: 350px;
+	width: 100%;
+	display: inline-block;
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+#fsecundario h2{
+	margin: 10px 0;
+}
+
+#fsecundario input[type=number],select,input[type=email],input[type=password],input[type=file],input[type=text],input[type=date]{
+	max-width: 400px;
+	width: 100%;
+	padding: 5px;
+	border-radius: 5px;
+}
+
